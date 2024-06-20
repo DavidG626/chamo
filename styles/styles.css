@@ -1,0 +1,101 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}/*# sourceMappingURL=styles.css.map */
+
+header h1 {
+  background: url(../styles/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 33%;
+  max-height: 1%;
+  
+ 
+  
+  
+  
+  
+  
+  /* text-align: center; */
+  padding: 20% 50%;
+}
+
+#h {
+  padding-left: 1em 1em;
+  border-bottom: 1em;
+}
+
+main {
+  
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+  width: 15%;
+  padding: 10px;
+  height: 200px;
+  transition: transform 0.5s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+h2.item-heading {
+  text-shadow: 2px 2px 4px #000000;
+  color: #fff;
+  font-size: 32px;
+  padding-bottom: 10px 0;
+}
+
+h3.text-heading {
+  text-shadow: 2px 2px 4px #000000;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 4rem;
+}
+
+
+
+span {
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-style: Bold;
+  
+}
+
+
+
+.corona {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(corona-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.coors {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(coors.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+@media  screen and (max-width: 600px) {
+  aside, section, article{
+      width: 100%;
+  }
+}
